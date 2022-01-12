@@ -1,10 +1,14 @@
 {% extends 'charity_app/base.html' %}
-{% block content %}
-      <div class="slogan container container--90">
-          <h2>
-            Dziękujemy za przesłanie formularza Na maila prześlemy wszelkie
-            informacje o odbiorze.
-          </h2>
-      </div>
-    </header>
-    {% endblock %}
+{% block header-class %}
+<header class="header--form-page">
+{% endblock %}
+{% block header-content %}
+  <div class="slogan container container--90">
+      <h2>
+        Dziękujemy za przesłanie formularza Na maila prześlemy wszelkie
+        informacje o odbiorze.
+      </h2>
+  </div>
+</header>
+{% endblock %}
+{% block content %}{% endblock %}
